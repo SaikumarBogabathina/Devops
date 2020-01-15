@@ -1,0 +1,86 @@
+Agile Process
+================
+1.Agile is a continuous process, never stops (continuous development, continuous integration, continuous testing, continous deployment, continuous delivery, continuous monitoring)
+
+2.Set SLA for each process release.
+
+3.Agile SDLC model is a combination of iterative & incremental process models with focus on process adoptability & customer satisfaction by rapid delivery of working software product.
+
+4.Every iteration involves cross functional teams working simultaneously.
+
+5.At the end of each iteration, wokring product is diplayed to the customer and important stakefolders.
+
+6.Individuals & Interactions: In Agile development, self organization and motivation are important.
+
+7.Working software:Communication with customers to understand their requirement, instead of just depending on documentation.
+
+8.customer collaboration:As the requirements can'nt be gathered completely in begining of the project due to various factors,
+  continuous customer interaction is very important to get proper product requirements.
+
+9.Responding to change:In agile development is focussed on quick responses to change and continuous development.
+
+
+Devops
+================
+
+1.The Main objective of Devops is to create a culture and envirement where teams can work collaboratively to deliver a software frequently & efficiently.
+
+2.In Agile software development the ultimate goal is to deploy working software to end-users as quickly as possibly.
+
+3.Devops is the union of people, processes, and products to enable continuous delivery of value to end users.
+
+4.Devops focuses on communication and collaboration between cross functional teams to enable rapid software development so that they can design, bulid, test and release software more efficiently.
+
+5.Delivery of work through the IT value stream from Development to Operations to customers.(Integrating development and operations into a single team.)
+
+6.Implementing fast and constant feedback within every stage.
+
+7.Continuous development, feedback, and process improvement.
+
+8.At the same time, that collaboration requires constant communication to remain transparent, efficient, and highly productive.
+
+
+Before version control system
+=================================
+1.No collaboration between the teams so no records are maintained.
+
+2.Nobody knows who made the changes, where was the changes and when was the changes happened, once saved all the changes are permanent cant be reverted back.
+
+3.Downtime may occur due to faulty updates,since theres is no backup maintained.(Imagine if system crashes the whole date will disappear)
+  looking at the above problem, the many organizations are decided to come up with VCS).
+
+VCS
+====
+1.Management of changes to the document, computer programs, large websites, collection of information and all these changes are usually terminated as "versions"(Snapshots).
+
+2.Maintain different versions of code, when last commit was made at what time and restores previous versions)
+
+Types of VCS
+============
+1.Local VCS
+2.Central VCS
+3.Distributed VCS
+
+1)Local VCS
+Many developers are working on the same version.
+
+2)Central VCS
+It has a central server, programmers will commit their changes to central copy so that the other people can see them.
+pulldown any changes that other people have made from the central server.
+Make your changes and ensures it work properly. ex:SVN,CVS.
+Disadvantages:
+1.Cant be maintained local copies.
+2.It is always connected to a network.
+
+3)Distributed VCS
+These system's do not rely on a central server to store all the versions of a project file.
+Every developer "Clones" a copy of repositoy has full history of project on their own harddrive.(This Clone has a metadata of original)
+ex:GIT, Mercurials, Bazaar.
+No server downtime.
+
+
+
+
+
+
+
